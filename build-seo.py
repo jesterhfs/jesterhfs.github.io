@@ -19,8 +19,8 @@ BASE_KW = 'hard flaccid, hard flaccid syndrome, HFS, jesterhfs'
 # file: (title, description, keywords-extra, shelf, priority)
 P = {
 'index.html': (
-  'On Hard Flaccid Syndrome (HFS): A Complete Reference | Jesterhfs',
-  'A fully referenced open reference on hard flaccid syndrome (HFS): symptoms, causes, '
+  'On Hard Flaccid Syndrome (HFS) | Jesterhfs',
+  'An open reference on hard flaccid syndrome (HFS): symptoms, causes, '
   'mechanism, every treatment ever tried, and what is still unknown.',
   'hard flaccid research, hard flaccid syndrome treatment, hard flaccid syndrome cure, '
   'hard flaccid reddit, hard flaccid syndrome reddit, hard flaccid syndrome discord, '
@@ -151,8 +151,8 @@ P = {
 'article-contact.html': (
   'Contact Jesterhfs | Hard Flaccid Syndrome',
   'How to reach Jesterhfs about hard flaccid syndrome, this site or research: on Discord, '
-  'on Reddit as u/jesterhfsplebbit, and on X as @jesterhfs.',
-  'contact jesterhfs, jesterhfs email, jesterhfs twitter, jesterhfs x',
+  'on Reddit as u/jesterhfsplebbit.',
+  'contact jesterhfs,',
   'Jesterhfs', '0.4'),
 }
 
@@ -161,7 +161,7 @@ PERSON = {
   '@id': f'{SITE}/#jesterhfs',
   'name': AUTHOR,
   'alternateName': 'jesterhfs',
-  'description': 'Patient researcher and author of On Hard Flaccid Syndrome.',
+  'description': 'Patient and author of On Hard Flaccid Syndrome.',
   'url': f'{SITE}/',
   'sameAs': ['https://x.com/jesterhfs'],
 }
@@ -172,7 +172,7 @@ WEBSITE = {
   'name': BRAND,
   'alternateName': ['Hard Flaccid Syndrome Reference', 'jesterhfs'],
   'url': f'{SITE}/',
-  'description': 'An open, fully referenced reference on hard flaccid syndrome.',
+  'description': 'An open reference on hard flaccid syndrome.',
   'inLanguage': 'en',
   'publisher': {'@id': f'{SITE}/#jesterhfs'},
   'author': {'@id': f'{SITE}/#jesterhfs'},
